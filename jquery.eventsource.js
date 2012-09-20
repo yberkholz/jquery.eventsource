@@ -205,7 +205,7 @@
 		var streamType, opts;
 
 		// Plugin sub function
-		if ( options && !jQuery.isPlainObject( options ) && pluginFns.["public"][ options ] ) {
+		if ( options && !jQuery.isPlainObject( options ) && pluginFns["public"][ options ] ) {
 			// If no label was passed, send message to all streams
 			return pluginFns["public"][ options ](
 								arguments[1] ?
